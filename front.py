@@ -5,7 +5,10 @@ import cv2
 from io import BytesIO
 
 # バックエンドサーバURL
-buckend_url = 'http://127.0.0.1:8000/objDetection'
+# ローカル
+# buckend_url = 'http://127.0.0.1:8000/objDetection'
+# Render
+buckend_url = 'https://objdetectionimg-back.onrender.com'
 
 st.title("Object Detection")
 
