@@ -26,7 +26,7 @@ if uploaded_file is not None:
 
     # バックエンド側へrequest
     files = {'file': ('filename', readData, 'image/jpeg')}
-    response = requests.post(buckend_url, files=files, timeout=10)
+    response = requests.post(buckend_url, files=files, timeout=60)
 
     # response受信
     if response.status_code == 200:
