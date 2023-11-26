@@ -8,7 +8,7 @@ from io import BytesIO
 # ローカル
 # buckend_url = 'http://127.0.0.1:8000/objDetection'
 # Render
-buckend_url = 'https://objdetectionimg-back.onrender.com'
+buckend_url = 'https://objdetectionimg-back.onrender.com/objDetection'
 
 st.title("Object Detection")
 
